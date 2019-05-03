@@ -12,3 +12,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.accomContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: orange;
+}
+
+.accom_card{
+  background-color: gray;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.details {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.accom_card img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accom Items displaying matches snapshot when using item 1 1`] = `
+<div
+  className="accom_card"
+  style={
+    Object {
+      "backgroundColor": "gray",
+      "cursor": "pointer",
+    }
+  }
+>
+  <img
+    alt="accom_image2"
+  />
+  <div
+    className="details row"
+  >
+    <h3>
+      hoteltwo
+    </h3>
+    <p>
+      3
+       stars
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Accom Items displaying matches using item 0 1`] = `
+<div
+  className="accom_card"
+  style={
+    Object {
+      "backgroundColor": "gray",
+      "cursor": "pointer",
+    }
+  }
+>
+  <img
+    alt="accom_image1"
+  />
+  <div
+    className="details row"
+  >
+    <h3>
+      hotelone
+    </h3>
+    <p>
+      5
+       stars
+    </p>
+  </div>
+</div>
+`;
+
+exports[`action creators creates CREATE_SUCCESS when creating a to-do was successful 1`] = `
+Array [
+  Object {
+    "item": Object {
+      "createdAt": "2017-03-02T23:04:38.003Z",
+      "id": 1,
+      "modifiedAt": "2017-03-22T16:44:29.034Z",
+      "project": "Testing",
+      "title": "Example",
+    },
+    "type": "CREATE_SUCCESS",
+  },
+]
+`;
